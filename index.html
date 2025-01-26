@@ -1,9 +1,193 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style1.css">
+
+</head>
 <body>
+    <div class="vertical-header">
+        <a href="#hero">Hero</a>
+        <a href="#about">About Me</a>
+		<a href="#education">Education</a>
+        <a href="#projects">Projects</a>
+        </div>
 
-<h1>My Portfolio</h1>
-<p>I'm Chirag Tikekar.</p>
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="social-media-top-right">
+          
+            <a href="https://www.linkedin.com/in/chiragtikekar/" target="_blank" class="btn-border">LinkedIn</a>
+            <a href="https://github.com/chiragtikekar" target="_blank" class="btn-border">GitHub</a>
+            <a href="#contact" class="btn-border">More..</a>
+        </div>
+        <div class="hero-content">
+            
+            <h1>Hello, I'm Chirag Tikekar. Welcome to my Portfolio.</h1>
+      			
+			<img src="profile.jpg" width="250" height="250" alt="My Picture" class="hero-image">
+			<br>
+            <button onclick="scrollToSection('about')">Learn More About Me</button>
+        </div>
+    </section>
 
+    <!-- About Me Section -->
+    <section id="about">
+        <div class="about-text">
+            <h2>About Me</h2>
+            <p>
+					
+				Hola, I'm Chirag!<br><br>
+				As a child, I was captivated by movies like Wall-E and Big Hero 6. Their imaginative worlds and the way technology played such an integral role in shaping those stories ignited a curiosity in me. I remember watching Wall-E’s journey through space and thinking, "What if we could build something like that?" These films planted the seed of fascination with engineering and the endless possibilities technology could bring to life.
+				<br><br>
+				Now, as a student pursuing a Bachelors in Computer Science & Engineering at SAL Institute of Technology & Engineering Research under the Gujarat Technological University, that curiosity has grown into a passion for creating something new and innovating. 
+				<br><br>
+				I have also participated in some programs other than academics, like Nirma University’s HackNUthon Event a 36 hour long Hackathon,Introduction to Database a certificate course by Meta, Geo-data sharing and Cyber Security Course by the Indian Institute of Remote Sensing - Indian Space Research Organisation (IIRS-ISRO) Outreach Programe.
+				<br><br>
+				Looking ahead, I want to push my skills further, with the goal of working on projects that are challenging and truly make a positive difference.
+				<br><br>
+				When I’m not coding, you’ll find me watching movies, exploring new programming languages, or keeping up with the latest in tech trends.			
+			</p>		
+		</div>
+        <div class="about-image">
+            <img src="profile2.jpg" width="300" height="350" alt="About Me Image">
+        </div>
+    </section>
+	
+	<!--  Education Section -->
+	
+	<section id="education">
+	<div class="edu">
+	<h2>Education</h2>
+	<br>
+    <div class="timeline">
+      <div class="timeline-item">
+        <div class="timeline-date l">Aug 2023 - Present</div>
+        <div class="education-card left">
+          <h3>SAL Institute of Technology & Engineering Research (GTU)</h3>
+          <p>Bachelor's in Computer Science & Engineering</p>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-date r">Aug 2020 - May 2023</div>
+        <div class="education-card right">
+          <h3>Government Polytechnic, Ahmedabad (GTU)</h3>
+          <p>Diploma in Computer Engineering</p>
+          <p>SPI – 8.45 | CPI- 8.73 | CGPA- 8.26</p>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-date ll">2020</div>
+        <div class="education-card left">
+          <h3>Airport School, Ahmedabad (CBSE)</h3>
+          <p>SSC | 79%</p>
+        </div>
+      </div>
+    </div>
+	</div>
+ </section>
+ <section id="skillid">
+		<div class="skill0">
+		<h2>Skills</h2>
+				<div class="skills">
+					<div class="skill">
+						<h3>Programming Languages</h3>
+						<p>C, C++, Java</p>
+					</div>
+					<div class="skill">
+						<h3>Frameworks</h3>
+						<p>JSP, MVC, Hibernate, Spring, Springboot</p>
+					</div>
+					<div class="skill">
+						<h3>Tools</h3>
+						<p>GitHub, Eclipse</p>
+					</div>
+					<div class="skill">
+						<h3>Databases</h3>
+						<p>MySQL</p>
+					</div>
+					<div class="skill">
+						<h3>Other</h3>
+						<p>HTML, CSS</p>
+					</div>
+				</div>
+		</div>	
+	</section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <div class="projects-content">
+            <h2>My Projects</h2>
+            <div class="projects-grid">
+                <div class="project">
+                    <h3>AnB Hub (Auction & Bidding) </h3>
+                    <p> Nov'2022<br>
+						HTML,CSS,PHP<br>
+						Final Sem Group Project in Diploma<br>
+						The Online Auction System is an innovative platform designed to connect buyers and sellers in a secure, efficient, and user-friendly environment. By enabling users to auction products online, the system ensures transparency and eliminates the challenges associated with traditional auctions, such as geographical and time constraints.
+					</p>
+                </div>
+                <div class="project">
+                    <h3>Save the Rabbit</h3>
+                    <p>	May'2023<br>
+						Android Studio-Java<br>
+						Mobile Computing and Application Devlopment (MCAD) Subject Project<br>
+						SaveTheBunny is a 2D game. The objective of the game is to move the Bunny left and right to avoid falling spikes. The player starts with 3 lives, and the game ends when all lives are lost. The game also tracks and displays the player's high score.
+					</p>
+					
+					
+					
+					 </div>
+                <div class="project">
+                    <h3>Library Management System</h3>
+                    <p>	2022<br>
+						HTML,CSS,Java,MySQL<br>
+						Self Initiated Project<br>
+						
+						Developed a library management system that manages the book catalog, tracks the books borrowed by users, and assists in managing various operations such as checking out and returning books. This LMS is for both admins and the users.
+				</p>
+                </div>
+                <div class="project">
+                    <h3>Spring Framework</h3>
+                    <p> 2023<br>
+						Java,Spring<br>
+						Self initiated Project<br>
+						
+						Built a basic account creation and login program with a user-friendly interface,incorporating Spring frameworks and forign key concepts.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="contact-content">
+            <h2>Contact Me</h2>
+            <form id="contact-form" onsubmit="handleSubmit(event)">
+                <input type="text" id="name" placeholder="Your Name" required>
+                <input type="email" id="email" placeholder="Your Email" required>
+                <textarea id="message" placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+            <p id="form-response"></p>
+        </div>
+    </section>
+	<!--Footer Section-->
+	<footer class="footer">
+		<div class="footer-content">
+		<a href="https://www.linkedin.com/in/chiragtikekar/" target="_blank" class="btn-border">LinkedIn</a>
+            <a href="https://github.com/chiragtikekar" target="_blank" class="btn-border">GitHub</a>
+            <a href="https://wa.link/767jh4" target="_blank" class="btn-border">WhatsApp</a>
+			<a href="https://instagram.com/chiragtikekar_" target="_blank" class="btn-border">Instagram</a>
+		</div>
+		<div class="footer-bottom">
+			<p>&copy; 2025 Chirag Tikekar. All Rights Reserved.</p>
+		</div>
+	</footer>
+    <script src="script.js"></script>
 </body>
 </html>
